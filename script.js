@@ -1,6 +1,10 @@
 function insert_Row() {
     //Write your code here
   let tableId = getElementById("sampleTable");
-	console.log(tableId);
+	tableId+=`<tr><td>Row1 cell1</td> 
+		<td>Row1 cell2</td></tr> 
+		<tr><td>Row2 cell1</td> 
+		<td>Row2 cell2</td></tr> `;
+	
   
 }
